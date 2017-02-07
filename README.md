@@ -1,2 +1,3 @@
 # topological-merge
-Combine multiple arrays into a Directional Acyclic Graph and sorting it.
+
+Combine multiple arrays by merging them into a Directional Acyclic Graph and sorting it.

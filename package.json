@@ -1,0 +1,19 @@
+{
+  "name": "topological-merge",
+  "version": "1.0.0",
+  "description": "Combine multiple arrays into a Directional Acyclic Graph and sorting it",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonahbron/topological-merge.git"
+  },
+  "author": "Jonah Dahlquist <jonah@jonah.name>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonahbron/topological-merge/issues"
+  },
+  "homepage": "https://github.com/jonahbron/topological-merge#readme"
+}
