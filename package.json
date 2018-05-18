@@ -1,6 +1,6 @@
 {
   "name": "topological-merge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Combine multiple arrays into a Directional Acyclic Graph and sorting it",
   "main": "index.js",
   "scripts": {
