@@ -44,8 +44,16 @@ assert.deepEqual(
 
 assert.deepEqual(
     topologicalMerge([
+        ['B', 'C'],
+        ['A', 'B', 'C']
+    ]),
+    ['A', 'B', 'C']
+, 'Earlier nodes should be pre-pended');
+
+assert.deepEqual(
+    topologicalMerge([
         ['A', 'B', 'C'],
         ['C', 'B', 'A']
     ]),
-    ['A', 'B', 'C']
+    ['A', 'C', 'B']
 , 'Cycles should not break sorting');
